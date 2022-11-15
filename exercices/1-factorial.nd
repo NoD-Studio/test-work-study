@@ -11,5 +11,5 @@ module Maths
   def power(n, m)
     mult(n, power(n, minus(m, 1))) if m > 0 else 1
   end
-  TODO: The factorial fonction
+  TODO: The factorial function
 end
